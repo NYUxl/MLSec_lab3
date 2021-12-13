@@ -22,7 +22,7 @@
 ### Some instructions
 
 To evaluate the model after pruning, execute one of the evaluation scripts by running:  
-`python3 eval_n.py <clean validation data directory> <poisoned validation data directory>`, where `n` is the percentage of channels pruned.
+`python3 eval_n.py <clean validation data directory> <poisoned validation data directory>`, where `n` is the accuracy drop in validation set.
 
 E.g., `python3 eval_2.py data/cl/valid.h5 data/bd/bd_valid.h5`, if your data is at the right position.
 
